@@ -1,0 +1,9 @@
+[global]
+    font = "-misc-fixed-medium-r-normal-*-13-*-*-*-*-*-iso10646-*"
+
+    modifier = "mod4"
+    key = period
+    history_key = comma
+    follow = keyboard
+
+    geometry = "+0-0"

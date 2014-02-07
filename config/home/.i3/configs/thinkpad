@@ -1,0 +1,22 @@
+bindsym $mod+F5 exec --no-startup-id exec ~/.i3/local/thinkpad/change_display.sh
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        status_command i3status -c ~/.i3/configs/i3status-thinkpad.conf
+	# TODO: Music status, launching feedback, etc
+	tray_output primary
+}
+
+workspace 6 output HDMI3
+
+# # When using a projector, avoid accidentally changing the external display
+# workspace 1 output LVDS1
+# workspace 2 output LVDS1
+# workspace 3 output LVDS1
+# workspace 4 output LVDS1
+# workspace 5 output LVDS1
+# workspace 7 output LVDS1
+# workspace 8 output LVDS1
+# workspace 9 output LVDS1
+# workspace 10 output LVDS1
